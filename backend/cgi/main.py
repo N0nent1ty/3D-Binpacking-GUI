@@ -154,7 +154,7 @@ def Processing3DBPWithPallet(container_infos, box_infos, pallet_infos):
     #dictionary for searching pallet and virtual container pair
     id_to_pallet=None
 
-
+    print(box_infos)
     #pack box_info
     for index, box_info in enumerate(box_infos):
         #if the sameType of box only is one, do nothing and pass it to algorithm
